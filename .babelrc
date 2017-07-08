@@ -1,1 +1,8 @@
-ECHO is on.
+{
+  "presets": [
+    ["latest", { "modules": false }],
+    "react"
+  ]
+}
+
+

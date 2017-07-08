@@ -4,7 +4,9 @@
   "description": "React Test program",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "webpack",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,13 @@
   "homepage": "https://github.com/BauwensKoen/HelloWorld#readme",
   "dependencies": {
     "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
     "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.1.0",
+    "webpack-dev-middleware": "^1.11.0"
   }
 }
